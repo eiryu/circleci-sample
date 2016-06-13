@@ -3,3 +3,5 @@ machine:
     Asia/Tokyo
   java:
     version: oraclejdk8
+  post:
+    - mysql --version
